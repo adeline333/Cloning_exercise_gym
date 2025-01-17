@@ -5,45 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="/css/tailwind.css">
+    
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 </head>
-<body class="bg-blue-500">
-     <div class=" grid grid-cols-6 text-lg text-white font-sm pt-5">
+<body class="bg-blue-600">
+     <div class=" grid grid-cols-2 text-lg text-white font-sm pt-5 w- ">
         
-        
+        <div class="flex items-center gap-6" >
         <img src="/logo.png" alt="logo" class="w-14"> 
         <P class=" text-left font-bold"> LUGX</P>
-        
-
-       
-        <a href="" class=" text-lg">Our Shop</a>
-        <a href="">Product details</a>
-
-
-        <div class="bg-red-500 rounded text-center pt-2">
-        <a href="" class=" border-red-600 text-center">Contact us</a>
         </div>
+            
+        <div class="flex items-center justify-end gap-10">
+        <a href="" class=" flex gr ">Home</a>
+        <a href="" class=" flex gap-">Our Shop</a>
+        <a href=""class=" flex ">Product details</a>
+        <a href="" class=" flex ">Contact Us</a>
+                     
+
+        <div class="bg-red-500 rounded text-center pt-2 flex flex-nowrap">
+        <a href="" class=" border-red-600 text-center">SIGN IN</a>
+        </div>
+            </div>  
 
     </div>
 
 
-    <div class=" grid grid-cols-2 text-center relative">
-        <div class="text-center pt-32 text-white space-y-5">
+    <div class=" grid grid-cols-2 text-center relative justify-center">
+        <div class="text-center pt-32 text-white space-y-5 align-center">
             <p class="font-semibold">WELCOME TO LUGX</p>
             <p class="font-extrabold text-lg font-">BEST GAMING SITE EVER!</p>
             <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus repudiandae fugit quidem suscipit. Maiores accusamus voluptatibus, pariatur officiis obcaecati quae nemo esse soluta laborum eaque aut provident fugit recusandae iste.</P>
 
-            <button type="button" class="bg-red-500 fon  border-red-500 rounded-lg text-center pt-4 pl-4 px-4 py-4" > Search now</button>
+                <div class="flex justify-center">
+            <textarea name="" id="1" class=" text-gray-400 font-serif rounded-lg pl-8 pr-8 -mr-8">Type Something</textarea>
+            <button type="button" class="bg-red-500 fon  border-red-500 rounded-lg text-center px-2 py-2" > Search now</button>
+                 </div>
+
         </div>
 
-        <div>
-        <img src="/Images/person.jpg" alt="hero" class="absolute justify-self-end" >
+    <div class="relative">
+        <img src="/Images/person.jpg" alt="hero" class="absolute justify-center mx-auto" >
+
+        <div class="absolute  top-0 right-0"> 
+            <p class ="font-extrabold text-white rounded-xl px-3 py-1 bg-blue-500 mr-0  ">$22</p>
+           
         </div>
+
+        <div class="absolute bottom-0 left-0"> 
+          <p class=" rounded-full bg-red-400 px-8 py-8 text-white font-bold ">-40%</p>
+        </div>
+
+    </div>
+        
 
     </div>
 </body>
